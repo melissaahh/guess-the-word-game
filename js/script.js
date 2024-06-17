@@ -1,7 +1,7 @@
 const guessedLetters = document.querySelector(".guessed-letters");
 const guessButton = document.querySelector(".guess");
 const letterInput = document.querySelector(".letter");
-const wordInProgress = document.querySelector(".word-in-progess");
+const wordInProgress = document.querySelector(".word-in-progress");
 const remainingGuesses = document.querySelector(".remaining");
 const eightGuesses = document.querySelector(".remaining span");
 const message = document.querySelector(".message");
