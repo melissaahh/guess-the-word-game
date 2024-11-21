@@ -23,12 +23,11 @@ const getWord = async function (){
 getWord();
 
 
-// add placeholders functions
+
 
 const placeholder = function (word){
    const placeholderLetters = [];
     for (const letter of word) {
-        // console.log(letter);
         placeholderLetters.push("●");
      }
     wordInProgress.innerText = placeholderLetters.join("");
@@ -145,7 +144,7 @@ playAgainButton.addEventListener("click", function (){
 
     getWord();
 
-    guessButton/classList.remove("hide");
+    guessButton.classList.remove("hide");
     playAgainButton.classList.add("hide");
     remainingGuessesElement.classList.remove("hide");
     guessedLettersElement.classList.remove("hide");
